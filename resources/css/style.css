@@ -2,6 +2,23 @@ body {
 
 }
 
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
 .mobile {
     display: none;
 }
+@media only screen and (max-width: 760px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
