@@ -1,5 +1,6 @@
 body {
-
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 img {
@@ -22,3 +23,58 @@ video {
     }
 }
 
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+
+header h3 {
+    margin: auto;
+}
+
+header .desktop {
+    display: flex;
+    height: 64px;
+    padding: 0 24px;
+    align-items: center;
+}
+
+header .logo {
+    display: inline-flex;
+    height: 32px;
+}
+
+header .buttons {
+
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-items: flex-end;
+}
+
+header a {
+    color: black;
+}
+
+header span {
+    color: lightgrey;
+}
+
+/*StartPage*/
+
+.st {
+    background-color: lightgrey;
+    font-weight: normal;
+
+}
+
+/*Info*/
+
+/*Learning*/
+
+/*Thesis*/
+
+/*footer*/
