@@ -6,6 +6,7 @@ body {
 
 img {
     max-width: 100%;
+    overflow: ;
 }
 
 video {
@@ -29,15 +30,13 @@ a {
     text-decoration: none;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 h3,
 h2 {
     margin: auto 0;
+}
+
+.ptext p {
+    margin: 8px 0;
 }
 
 /*Header*/
@@ -89,7 +88,7 @@ header span {
 
 /*StartPage*/
 
-h1 {
+.sttext h1 {
     margin: auto 0;
 }
 
@@ -106,8 +105,14 @@ h1 {
     width: 60%;
 }
 
-.st .text {
+.st .sttext {
     padding-left: 24px;
+}
+
+.sttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .st .text p {
@@ -116,7 +121,7 @@ h1 {
 
 
 .st a {
-    padding: 8px 30%;
+    padding: 8px 40%;
     background-color: rgb(65, 57, 57);
     color: white;
 }
@@ -169,6 +174,43 @@ h1 {
 }
 
 /*Learning*/
+ 
+.lern {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 16px 56px;
+    background-color: rgba(211, 211, 211, 0.445);
+}
+
+.lerning h2 {
+    text-align: center;
+    padding: 16px auto;
+}
+
+
+.lernbox {
+    display: inline-flex;
+}
+
+.lerninfo {
+    width: 33%;
+    background-color: white;
+    margin: 16px;
+}
+
+.lerninfo h3 {
+    margin:16px 0;
+}
+.lerninfo .ptext {
+    background-color: white;
+    padding: 24px 16px;
+    padding-top: 0;
+}
+
+.Lerninfo img {
+    height: auto;
+}
 
 /*Thesis*/
 
