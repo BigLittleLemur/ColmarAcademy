@@ -132,11 +132,16 @@ header span {
     font-size: 20px;
 }
 
+.st .button {
+    display: flex;
+}
 
 .st a {
-    padding: 8px 40%;
+    padding: 8px 0;
     background-color: rgb(65, 57, 57);
     color: white;
+    width: 100%;
+    text-align: center;
 }
 
 .grey {
