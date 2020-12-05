@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: rgb(65, 57, 57);
 }
 
 img {
@@ -11,7 +10,6 @@ img {
 
 video {
     max-width: 100%;
-    width: 60%;
 }
 
 .mobile {
@@ -37,6 +35,21 @@ h2 {
 
 .ptext p {
     margin: 8px 0;
+}
+
+.box {
+    width: 40%;
+}
+
+.infobox {
+    display: flex;
+    align-items: center;
+}
+
+.infobox img {
+    height: auto;
+    width: 35%;
+    padding: 16px;
 }
 
 /*Header*/
@@ -73,7 +86,7 @@ header ul {
 
  .space {
     width: 16px;
-    background-color: lightgrey;
+    background-color: rgb(235, 217, 217);
     height: 64px;
 }
 
@@ -82,7 +95,7 @@ header a {
 }
 
 header span {
-    color: lightgrey;
+    color: rgb(235, 217, 217);
     font-weight: normal;
 }
 
@@ -93,7 +106,7 @@ header span {
 }
 
 .st {
-    background-color: lightgrey;
+    background-color: rgb(235, 217, 217);
     font-weight: normal;
     display: flex;
     padding: 32px 24px;
@@ -127,7 +140,7 @@ header span {
 }
 
 .grey {
-    background-color: lightgrey;
+    background-color: rgb(235, 217, 217);
 }
 
 /*Info*/
@@ -139,7 +152,7 @@ header span {
 .info {
     width: 60%;
     padding: 32px 24px;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid rgb(235, 217, 217);
 }
 
 .info h1 {
@@ -154,25 +167,18 @@ header span {
 
 .info .author {
     font-size: 12px;
+    margin: 0;
 }
 
-.box {
-    width: 40%;
-}
-
-.infobox {
-    display: flex;
-    align-items: center;
+#bordert {
     margin: 1px 0;
-    border: 1px solid lightgrey;
+    border-top: 1px solid rgb(235, 217, 217);
 }
 
-.infobox img {
-    height: auto;
-    width: 35%;
-    padding: 16px;
+#borderb {
+    margin: 1px 0;
+    border-bottom: 1px solid rgb(235, 217, 217);
 }
-
 /*Learning*/
  
 .lern {
@@ -180,12 +186,12 @@ header span {
     justify-content: center;
     align-content: center;
     padding: 16px 56px;
-    background-color: rgba(211, 211, 211, 0.445);
+    background-color: rgba(235, 217, 217, 0.397);
 }
 
-.lerning h2 {
+.lern h2 {
     text-align: center;
-    padding: 16px auto;
+    margin: 16px auto;
 }
 
 
@@ -200,7 +206,7 @@ header span {
 }
 
 .lerninfo h3 {
-    margin:16px 0;
+    margin-top: 16px;
 }
 .lerninfo .ptext {
     background-color: white;
@@ -210,8 +216,55 @@ header span {
 
 .Lerninfo img {
     height: auto;
+    overflow: hidden;
 }
 
 /*Thesis*/
 
+.thesis {
+    padding: 32px 0;
+}
+
+.thesis h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.thesisbox {
+    display: flex;
+}
+
+.thesis .video {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.thesis .video h3 {
+    margin-top: 24px;
+}
+
+.thesis .video p {
+    margin: 0;
+    margin-top: 8px;
+}
+
 /*footer*/
+
+footer {
+    display: flex;
+    align-content: flex-start;
+    height: 32px;
+    padding: 0 14px;
+    padding-top: 16px;
+    border-top: 1px solid rgb(235, 217, 217);
+}
+
+footer .copy {
+    width: 90%;
+}
+
+footer p {
+    font-size: 12px;
+    padding: 0 10px;
+    margin: 0;
+}
