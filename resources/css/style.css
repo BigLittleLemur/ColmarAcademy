@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    color: rgb(65, 57, 57);
 }
 
 img {
@@ -9,6 +10,7 @@ img {
 
 video {
     max-width: 100%;
+    width: 60%;
 }
 
 .mobile {
@@ -25,6 +27,17 @@ video {
 
 a {
     text-decoration: none;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3,
+h2 {
+    margin: auto 0;
 }
 
 /*Header*/
@@ -46,13 +59,23 @@ header .logo {
 }
 
 header .buttons {
-
+    width: 90%;
+    justify-content: flex-end;
+    display: flex;
+    height: auto;
 }
 
 header ul {
     list-style-type: none;
     display: flex;
-    justify-items: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+ .space {
+    width: 16px;
+    background-color: lightgrey;
+    height: 64px;
 }
 
 header a {
@@ -61,17 +84,89 @@ header a {
 
 header span {
     color: lightgrey;
+    font-weight: normal;
 }
 
 /*StartPage*/
 
+h1 {
+    margin: auto 0;
+}
+
 .st {
     background-color: lightgrey;
     font-weight: normal;
+    display: flex;
+    padding: 32px 24px;
+    align-items: center;
+    height: 40%
+}
 
+.st .img {
+    width: 60%;
+}
+
+.st .text {
+    padding-left: 24px;
+}
+
+.st .text p {
+    font-size: 20px;
+}
+
+
+.st a {
+    padding: 8px 30%;
+    background-color: rgb(65, 57, 57);
+    color: white;
+}
+
+.grey {
+    background-color: lightgrey;
 }
 
 /*Info*/
+
+.inf {
+    display: flex;
+}
+
+.info {
+    width: 60%;
+    padding: 32px 24px;
+    border-right: 1px solid lightgray;
+}
+
+.info h1 {
+    margin: 0;
+    margin-top: 32px;
+    font-size: 40px;
+}
+
+.info p {
+    margin: 24px 0;
+}
+
+.info .author {
+    font-size: 12px;
+}
+
+.box {
+    width: 40%;
+}
+
+.infobox {
+    display: flex;
+    align-items: center;
+    margin: 1px 0;
+    border: 1px solid lightgrey;
+}
+
+.infobox img {
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
 
 /*Learning*/
 
